@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 import Link from 'next/link'
-import { Main } from 'next/document'
+// import { Main } from 'next/document'
 
 
 const Shorten = () => {

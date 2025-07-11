@@ -17,7 +17,7 @@ export default function Home() {
           The Best URL shortner in the market
           </p>
           <p className="px-25 text-center">
-            We are the most straightforward URL shortener, designed for simplicity and speed. No clutter, no unnecessary features—just paste your long link, and get a short one instantly. Whether you're sharing on social media, in emails, or anywhere else, our tool keeps it fast, reliable, and hassle-free. Try it now!
+            We are the most straightforward URL shortener, designed for simplicity and speed. No clutter, no unnecessary features—just paste your long link, and get a short one instantly. Whether you&apos;re sharing on social media, in emails, or anywhere else, our tool keeps it fast, reliable, and hassle-free. Try it now!
           </p>
           <Link href="/shorten"><button className='text-white font-bold bg-purple-500 rounded-lg shadow-lg p-3 py-1.5 shadow-purple-800'>Try Now</button></Link>
 
