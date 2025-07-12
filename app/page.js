@@ -11,8 +11,8 @@ const poppins = localFont({
 export default function Home() {
   return (
     <main className="bg-gradient-to-r from-purple-300 to-purple-100">
-      <section className="grid grid-cols-2 h-[91vh]">
-        <div className="flex flex-col items-center justify-center gap-4">
+      <section className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-[91vh]">
+        <div className="flex flex-col items-center justify-center gap-4 px-6 py-12 md:py-0">
           <p className={`text-3xl font-bold ${poppins.className}`}>
           The Best URL shortner in the market
           </p>
@@ -22,7 +22,7 @@ export default function Home() {
           <Link href="/shorten"><button className='text-white font-bold bg-purple-500 rounded-lg shadow-lg p-3 py-1.5 shadow-purple-800'>Try Now</button></Link>
 
         </div>
-        <div className=" flex justify-start relative">
+        <div className="relative w-full h-64 md:h-auto">
           <Image className="mix-blend-darken" alt="an image of vector" src={"/vector.jpg"} fill={true} ></Image>
 
         </div>

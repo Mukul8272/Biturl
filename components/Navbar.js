@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <nav className='h-15 bg-purple-500 flex justify-between px-4 items-center text-white '>
-        <div className='logo font-bold text-2xl' >
+    <nav className='h-16 bg-purple-500 flex justify-between px-4 items-center text-white w-full overflow-x-auto'>
+        <div className='logo font-bold text-2xl whitespace-nowrap' >
             <Link href="/">BitURL</Link>
         </div>
-        <ul className='flex justify-center gap-5 items-center'>
+        <ul className='flex gap-4 items-center whitespace-nowrap text-sm md:text-base'>
             <Link href="/"><li>Home</li></Link>
             <Link href="/about"><li>About</li></Link>
             <Link href="/shorten"><li>Shorten</li></Link>
